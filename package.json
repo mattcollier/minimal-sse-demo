@@ -1,0 +1,21 @@
+{
+  "name": "sse-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node lib/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
